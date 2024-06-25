@@ -43,12 +43,12 @@ body {
   top: 0;
   right: -80%;
   transition: all 1s linear;
-  transform: rotate(-360deg);
+  transform: translateX(2000px);
 }
 
 .menu.show {
   right: 0;
-  transform: rotate(360deg);
+  transform: translateX(0);
 }
 
 .menubar {
